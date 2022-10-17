@@ -252,3 +252,22 @@ footer .redes-sociales .contenedor .instagram{
 footer .redes-sociales .contenedor .github{
     background-color: #666;
 }
+
+/* Diseño Responsivo - Media Queries */
+@media screen and (max-width: 800px){
+    header .contenedor nav{
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor .contenedor-trabajos .trabajo{
+        width: 46%;
+    }
+
+    footer .redes-sociales .contenedor{
+        flex-wrap: wrap;
+    }
+
+    footer .redes-sociales .contenedor a{
+        margin-bottom: 40px;
+    }
+}
